@@ -123,7 +123,7 @@ Ad ogni foto sono quindi associate informazioni con questa struttura tipo:
 ```
 
 Nella struttura YAML c'è un errore (a causa di un mio suggerimento errato) - non ci dovrebbero essere i "trattini" che fanno da punto elenco - che per fortuna però non ha conseguenze sulla lettura dei dati.<br>
-Flickr inoltre fa un'"reinterpretazione" dei caratteri inseriti nel campo note (gli "a capo" diventano `\n`, ecc.), ma bastano piccoli accorgimenti via _script_ per riportare il testo a una struttura `YAML` corretta.
+Flickr inoltre fa un _encoding_ dei caratteri inseriti nel campo note (gli "a capo" diventano `\n`, le virgolette `&quot;`, ecc.), ma basta saperlo e prendere le "contromisure" via _script_, per riportare il testo a una struttura `YAML` corretta.
 
 ## Come nasce
 
