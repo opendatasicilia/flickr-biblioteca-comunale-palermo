@@ -129,7 +129,7 @@ Flickr inoltre fa un _encoding_ dei caratteri inseriti nel campo note (gli "a ca
 
 Qui in OpenDataSicilia diverse persone hanno mostrato nel tempo interesse verso il riuso del patrimonio fotografico della Biblioteca Comunale di Palermo. Tra i primi [Giulio Di Chiara](https://twitter.com/giuliodichiara) e [Ciro Spataro](https://twitter.com/cirospat), che nel tempo hanno fatto diversi tentativi per porre in essere la cosa.
 
-Quello riuscito, che ha portato a quanto descritto sopra, parte da un'email di Ciro di settembre del 2017, che scrive a me e al [Prof. Taibi](https://twitter.com/dataibi) queste parole
+Quello riuscito, che ha portato a quanto descritto sopra, parte da un'email di Ciro di settembre del 2017, che scrive a me e al [Prof. Taibi](https://twitter.com/dataibi) queste parole:
 
 > [...] poniamo che l'Archivio Storico comunale e la Biblioteca comunale si convinca a creare un profilo FLICKR per postare migliaia di immagini frutto di scansioni di carte e manufatti storici e artistici su Palermo e la Sicilia custodite dentro le due strutture. Per valorizzare pubblicamente il patrimonio custodito, insomma open data. Così come fanno a Londra, a New York le Biblioteche pubbliche [...]
 
