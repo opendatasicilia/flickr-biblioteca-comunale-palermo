@@ -122,14 +122,36 @@ E ad ogni foto sono associate informazioni con questa struttura tipo:
 }
 ```
 
-Nota bene: nella struttura YAML c'è un errore (mio) - non ci dovrebbero essere i "trattini" che fanno da punto elenco - che per fortuna però non ha conseguenze sulla lettura dei dati. 
+Nota bene: nella struttura YAML c'è un errore (mio) - non ci dovrebbero essere i "trattini" che fanno da punto elenco - che per fortuna però non ha conseguenze sulla lettura dei dati.
 
 ## Come nasce
 
 Qui in OpenDataSicilia diverse persone hanno mostrato nel tempo interesse verso il riuso del patrimonio fotografico della Biblioteca Comunale di Palermo. Tra i primi [Giulio Di Chiara](https://twitter.com/giuliodichiara) e [Ciro Spataro](https://twitter.com/cirospat), che nel tempo hanno fatto diversi tentativi per porre in essere la cosa.
 
-Quello che riesce parte da un'email di Ciro di settembre del 2017, che scrive a me e al [Prof. Taibi](https://twitter.com/dataibi) queste parole
+Quello riuscito, che ha portato a quanto descritto sopra, parte da un'email di Ciro di settembre del 2017, che scrive a me e al [Prof. Taibi](https://twitter.com/dataibi) queste parole
 
 > [...] poniamo che l'Archivio Storico comunale e la Biblioteca comunale si convinca a creare un profilo FLICKR per postare migliaia di immagini frutto di scansioni di carte e manufatti storici e artistici su Palermo e la Sicilia custodite dentro le due strutture. Per valorizzare pubblicamente il patrimonio custodito, insomma open data. Così come fanno a Londra, a New York le Biblioteche pubbliche [...]
 
-Da lì parte uno scambio ricco tra Ciro, Davide, me e la Biblioteca che ha portato in pochi giorni all'inizio della pubblicazione delle foto su Flickr
+Da lì parte uno scambio ricco tra Ciro, Davide, me e la Biblioteca, che ha portato in pochi giorni all'inizio della pubblicazione delle foto su Flickr.
+
+## Dati
+
+Flickr consente l'accesso ai suoi dati tramite delle [**ricche API**](https://www.flickr.com/services/api/). Per usarle è necessario usare una `API key`, ottenuta la quale è possibile interrogarle con semplicità.
+
+Un esempio è [questo script `bash`](./fotoComunePalermo.sh) - "bruttino", perché molto ottimizzabile - che interroga le API per restituire:
+
+- l'elenco [degli URL di ogni foto](./report/download.csv);
+- l'elenco [delle coordinate](./report/coordinate.csv) associate alle foto;
+- l'elenco [degli album](./report/album.csv) associati alle foto;
+- i [metadati](./report/lista.csv) associati alle foto;
+- un [file](./report/output.csv) che mette insieme coordinate e metadati.
+
+Nota bene: da circa 10 foto non risultano estratti metadati, perché ci sono dei piccoli errori di struttura nel testo sorgente.
+
+## Note conclusive
+
+Quanto fatto dalla **Biblioteca Comunale di Palermo** è un esempio di valore, è facilmente **replicabile**, non costringe a **rivoluzionare procedure interne**, ha dei **costi sostenibili**, **restituisce** un b**ene comune digitale** di **gran valore** e **pronto al riuso** di persone e "macchine".
+
+Non è perfetto e si può fare (come sempre) di più e meglio, ma penso che il progetto meriti un plauso.
+
+Nei prossimi giorni ci saranno delle **sorprese** 🎉🎉, degli esempi di **riutilizzo** di questi **dati**.
