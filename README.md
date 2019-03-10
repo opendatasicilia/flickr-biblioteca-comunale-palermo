@@ -151,7 +151,7 @@ Nota bene: da circa 10 foto non risultano estratti metadati, perché ci sono dei
 
 ## Note conclusive
 
-Quanto fatto dalla **Biblioteca Comunale di Palermo** è un esempio di valore, è facilmente **replicabile**, non costringe a **rivoluzionare procedure interne**, ha dei **costi sostenibili**, **restituisce** un **bene comune digitale** **prezioso** e **pronto al riuso** di persone e "macchine".
+Quanto fatto dalla **Biblioteca Comunale di Palermo** è un esempio di valore: è facilmente **replicabile**, non costringe a **rivoluzionare procedure interne**, ha dei **costi sostenibili**, **restituisce** un **bene comune digitale** **prezioso** e **pronto al riuso** di persone e "macchine".
 
 Non è perfetto e si può fare (come sempre) di più e meglio, ma penso che il progetto meriti un plauso.
 
