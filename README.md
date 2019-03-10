@@ -79,7 +79,7 @@ E questo è il modo scelto (immagine di sotto) per il meraviglioso [**archivio d
 
 ![](https://i.imgur.com/IRuGPQ3.png)
 
-Abbiamo aggiunto un elemento: inserire il testo della nota in una modalità che fosse nativamente **non soltanto** una nota **da leggere** a video, ma anche un **testo strutturato _machine readable_**, trasformabile in una banca dati da interrogare, analizzare e trasformare.<br>
+Abbiamo aggiunto un elemento: inserire il testo della nota in una modalità che fosse nativamente **non soltanto** **da leggere** a video, ma anche un **testo strutturato _machine readable_**, trasformabile in una banca dati da interrogare, analizzare e trasformare.<br>
 E allora le note sono in [`YAML`](https://yaml.org/), un formato che è sia _human_ che _machine readable_.
 
 Ad ogni foto sono quindi associate informazioni con questa struttura tipo:
