@@ -79,10 +79,10 @@ E questo è il modo scelto (immagine di sotto) per il meraviglioso [**archivio d
 
 ![](https://i.imgur.com/IRuGPQ3.png)
 
-Però abbiamo aggiunto un elemento: inserire il testo della nota in una modalità che fosse nativamente **non soltanto** una nota **da leggere**, ma anche un **testo strutturato _machine readable_**, trasformabile in una banca dati da interrogare, analizzare e trasformare.<br>
-E allora le note sono in [`YAML`](https://yaml.org/), un formato è sia _human_ che _machine readable_.
+Abbiamo aggiunto un elemento: inserire il testo della nota in una modalità che fosse nativamente **non soltanto** una nota **da leggere** a video, ma anche un **testo strutturato _machine readable_**, trasformabile in una banca dati da interrogare, analizzare e trasformare.<br>
+E allora le note sono in [`YAML`](https://yaml.org/), un formato che è sia _human_ che _machine readable_.
 
-E ad ogni foto sono associate informazioni con questa struttura tipo:
+Ad ogni foto sono quindi associate informazioni con questa struttura tipo:
 
 ```yaml
 ### inizio descrizione ###
@@ -122,7 +122,7 @@ E ad ogni foto sono associate informazioni con questa struttura tipo:
 }
 ```
 
-Nota bene: nella struttura YAML c'è un errore (mio) - non ci dovrebbero essere i "trattini" che fanno da punto elenco - che per fortuna però non ha conseguenze sulla lettura dei dati.
+Nota bene: nella struttura YAML c'è un errore (mio, perché la proposta YAML l'ho fatta io) - non ci dovrebbero essere i "trattini" che fanno da punto elenco - che per fortuna però non ha conseguenze sulla lettura dei dati.
 
 ## Come nasce
 
