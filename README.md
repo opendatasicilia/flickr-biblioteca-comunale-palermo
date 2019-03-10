@@ -122,7 +122,8 @@ Ad ogni foto sono quindi associate informazioni con questa struttura tipo:
 }
 ```
 
-Nota bene: nella struttura YAML c'è un errore (mio, perché la proposta YAML l'ho fatta io) - non ci dovrebbero essere i "trattini" che fanno da punto elenco - che per fortuna però non ha conseguenze sulla lettura dei dati.
+Nella struttura YAML c'è un errore (a causa di un mio suggerimento errato) - non ci dovrebbero essere i "trattini" che fanno da punto elenco - che per fortuna però non ha conseguenze sulla lettura dei dati.<br>
+Flickr inoltre fa un'"reinterpretazione" dei caratteri inseriti nel campo note (gli "a capo" diventano `\n`, ecc.), ma bastano piccoli accorgimenti via _script_ per riportare il testo a una struttura `YAML` corretta.
 
 ## Come nasce
 
@@ -150,7 +151,7 @@ Nota bene: da circa 10 foto non risultano estratti metadati, perché ci sono dei
 
 ## Note conclusive
 
-Quanto fatto dalla **Biblioteca Comunale di Palermo** è un esempio di valore, è facilmente **replicabile**, non costringe a **rivoluzionare procedure interne**, ha dei **costi sostenibili**, **restituisce** un b**ene comune digitale** di **gran valore** e **pronto al riuso** di persone e "macchine".
+Quanto fatto dalla **Biblioteca Comunale di Palermo** è un esempio di valore, è facilmente **replicabile**, non costringe a **rivoluzionare procedure interne**, ha dei **costi sostenibili**, **restituisce** un **bene comune digitale** **prezioso** e **pronto al riuso** di persone e "macchine".
 
 Non è perfetto e si può fare (come sempre) di più e meglio, ma penso che il progetto meriti un plauso.
 
