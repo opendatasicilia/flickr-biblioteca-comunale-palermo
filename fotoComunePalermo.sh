@@ -1,5 +1,12 @@
 #!/bin/bash
 
+### requisiti ###
+# avere una API Key di Flickr e inserirla come variabile in un file config e denominarla flickrAPI
+# jq > https://stedolan.github.io/jq/
+# yq > https://yq.readthedocs.io/en/latest/
+# miller > http://johnkerl.org/miller/doc/index.html
+### requisiti ###
+
 set -x
 
 cartella="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
@@ -142,6 +149,6 @@ mlr --csv join --ul -j risorsa  -f "$cartella"/report/tmp_01.csv then unsparsify
 
 rm "$cartella"/report/tmp*
 
-# aggiungi URL pagina foto
+# aggiungi URL pagina foto e fai pulizia sugli spazi
 mlr -I --csv put '$href="https://www.flickr.com/photos/biblioteca-comunale-palermo/" . $risorsa' "$cartella"/report/output.csv
 mlr -I --csv clean-whitespace "$cartella"/report/output.csv
