@@ -35,7 +35,7 @@ L'archivio è composto da queste 20 gallerie:
 
 Ogni foto è associata a un "corredo informativo" costituito da: titolo, posizione geografica, gallerie di appartenenza, _tag_, licenza e metadati (non sono dati presenti in tutte le foto, ma nella grandissima parte).
 
-La **posizione geografica** viene inserita sfruttando una delle caratteristiche native di Flickr che consente di associare una foto a una posizione su mappa. Una volta fatto, all'elemento viene associata una struttura dati di questo tipo, in cui oltre alla coppia di coordinate è presente un'informazione geografica gerarchica (`Italia > Sicilia > Palermo`)
+La **posizione geografica** viene inserita sfruttando una delle caratteristiche native di Flickr che consente di associare una foto a una posizione su mappa. Una volta fatto, all'elemento viene associata una struttura dati di questo tipo, in cui oltre alla coppia di coordinate è presente un'informazione geografica gerarchica (`Italia > Sicilia > Palermo`).
 
 ```json
 "location": {
@@ -74,7 +74,7 @@ La **posizione geografica** viene inserita sfruttando una delle caratteristiche 
     }
 ```
 
-Per i **metadati** lo staff della Biblioteca ha accettato una nostra proposta (vedi paragrafo successivo). Flickr infatti non consente di metadatare in modo strutturato una foto, associargli un identificativo, un autore, un editore, la pagina, ecc. e l'unica possibilità per inserire informazioni di questo tipo è quella di sfruttare lo spazio per le testuali. <br>
+Per i **metadati** lo staff della Biblioteca ha accettato una nostra proposta (vedi paragrafo successivo). Flickr infatti non consente di metadatare in modo strutturato una foto, associargli un identificativo, un autore, un editore, la pagina, ecc. e l'unica possibilità per inserire informazioni di questo tipo è quella di sfruttare lo spazio per le note testuali. <br>
 E questo è il modo scelto (immagine di sotto) per il meraviglioso [**archivio della British Library**](https://www.flickr.com/photos/britishlibrary/).
 
 ![](https://i.imgur.com/IRuGPQ3.png)
